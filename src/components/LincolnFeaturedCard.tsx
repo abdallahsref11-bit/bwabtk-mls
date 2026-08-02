@@ -75,7 +75,7 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
                     </div>
                   </div>
                   <p className="mt-2 text-xs text-slate-300">
-                    وفر أكثر من 50% مقارنة بالجامعات الأخرى مع حفظ الجودة العالية.
+                    وفر أكثر من 50% مقارنة بالجامعات الأخرى.
                   </p>
                 </div>
               </div>
