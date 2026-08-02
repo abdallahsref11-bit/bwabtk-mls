@@ -46,8 +46,8 @@ export function OfficeLocationCard() {
                 </div>
                 <div>
                   <div className="text-xs text-slate-400 font-medium">الهاتف والواتساب المباشر</div>
-                  <div className="text-base font-extrabold text-emerald-400 mt-0.5 dir-ltr text-right">
-                    +60 11-2877 8837
+                  <div className="text-base font-extrabold text-emerald-400 mt-0.5">
+                    تواصل مباشر عبر الواتساب والهاتف
                   </div>
                   <div className="text-xs text-slate-400 mt-1">خدمة الاستجابة السريعة على مدار الساعة</div>
                 </div>

@@ -74,7 +74,7 @@ export function Navbar({ onOpenConsultation }: NavbarProps) {
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border text-xs font-bold transition-all hover:scale-102 bg-emerald-500/10 text-emerald-300 border-emerald-500/30 hover:bg-emerald-500/20"
             >
               <MessageCircle className="w-4 h-4 text-emerald-400" />
-              <span>واتساب: +601128778837</span>
+              <span>تواصل معنا عبر الواتساب</span>
             </a>
 
             <button
@@ -117,7 +117,7 @@ export function Navbar({ onOpenConsultation }: NavbarProps) {
               className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-emerald-500/10 text-emerald-300 border border-emerald-500/30 text-xs font-bold"
             >
               <MessageCircle className="w-4 h-4 text-emerald-400" />
-              <span>تواصل واتساب مباشر (+601128778837)</span>
+              <span>تواصل معنا عبر الواتساب</span>
             </a>
             <button
               onClick={() => {

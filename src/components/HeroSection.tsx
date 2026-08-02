@@ -80,7 +80,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-md transition-all hover:scale-102 cursor-pointer"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  <span>راسلنا الآن عبر الواتساب (+601128778837)</span>
+                  <span>راسلنا الآن عبر الواتساب</span>
                 </a>
 
                 <button
