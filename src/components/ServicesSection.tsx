@@ -100,7 +100,7 @@ export function ServicesSection({ onOpenConsultation }: ServicesSectionProps) {
         </div>
 
         {/* CTA Banner inside Services */}
-        <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-white border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm">
+        <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-white border border-emerald-200 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-sm text-center lg:text-right">
           <div>
             <h4 className="text-xl font-extrabold text-slate-900">هل لديك أي استفسار آخر أو ترغب في بدء إجراءات القبول؟</h4>
             <p className="text-slate-600 text-sm mt-1">تواصل معنا الآن مباشرة للحصول على استشارة مجانية وفردية.</p>

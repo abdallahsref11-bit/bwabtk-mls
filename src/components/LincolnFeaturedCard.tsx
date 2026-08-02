@@ -35,10 +35,10 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mt-4">
             
             {/* Right Column: Highlights & Content */}
-            <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
+            <div className="lg:col-span-7 flex flex-col justify-between space-y-6 text-center lg:text-right items-center lg:items-start">
               
               <div>
-                <div className="flex items-center gap-2 text-emerald-400 text-sm font-bold mb-1">
+                <div className="flex items-center justify-center lg:justify-start gap-2 text-emerald-400 text-sm font-bold mb-1">
                   <Building2 className="w-5 h-5" />
                   <span>Lincoln University College - Malaysia</span>
                 </div>
@@ -48,9 +48,9 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
               </div>
 
               {/* 2 Critical Focused Highlights (3 Years & $2400) */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                 <div className="p-5 rounded-2xl bg-slate-950/80 border border-emerald-500/30 shadow-md">
-                  <div className="flex items-center gap-3">
+                  <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-3 text-center sm:text-right">
                     <div className="p-3 rounded-xl bg-emerald-500/10 text-emerald-400">
                       <Zap className="w-6 h-6" />
                     </div>
@@ -65,7 +65,7 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-950/80 border border-amber-500/30 shadow-md">
-                  <div className="flex items-center gap-3">
+                  <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-3 text-center sm:text-right">
                     <div className="p-3 rounded-xl bg-amber-500/10 text-amber-400">
                       <Award className="w-6 h-6" />
                     </div>
@@ -81,8 +81,8 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
               </div>
 
               {/* QS World Ranking Badges */}
-              <div className="p-4 rounded-2xl bg-slate-950/60 border border-slate-800">
-                <div className="flex items-center gap-2 text-xs font-bold text-slate-300 mb-3">
+              <div className="p-4 rounded-2xl bg-slate-950/60 border border-slate-800 w-full">
+                <div className="flex items-center justify-center lg:justify-start gap-2 text-xs font-bold text-slate-300 mb-3">
                   <Globe className="w-4 h-4 text-emerald-400" />
                   <span>التصنيف العالمي لجامعة لينكولن (QS World Rankings):</span>
                 </div>
@@ -103,27 +103,27 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
               </div>
 
               {/* Features Checklist */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-300">
-                <div className="flex items-center gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-300 w-full">
+                <div className="flex items-center justify-center lg:justify-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>تخصص الذكاء الاصطناعي (AI)</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center lg:justify-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>تخصص الأمن السيبراني (Cyber Security)</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center lg:justify-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>تخصصات IT والهندسة وBusiness</span>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center lg:justify-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>شهادة معترف بها وموثوقة</span>
                 </div>
               </div>
 
               {/* Action Trigger Buttons */}
-              <div className="pt-2 flex flex-wrap gap-4">
+              <div className="pt-2 flex flex-wrap justify-center lg:justify-start gap-4">
                 <a
                   href="https://wa.me/601128778837?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D9%84%D9%8A%D9%86%D9%83%D9%88%D9%84%D9%86%20(%D8%B9%D8%B1%D8%B6%202400%20%D8%AF%D9%88%D9%84%D8%A7%D8%B1)"
                   target="_blank"

@@ -5,10 +5,10 @@ export function Footer() {
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800 dir-rtl text-xs sm:text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-slate-800 text-center md:text-right">
           
           {/* Col 1: Brand */}
-          <div className="space-y-3 md:col-span-1">
+          <div className="space-y-3 md:col-span-1 flex flex-col items-center md:items-start">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center font-bold">
                 <GraduationCap className="w-5 h-5" />
@@ -21,7 +21,7 @@ export function Footer() {
           </div>
 
           {/* Col 2: Quick Links */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="text-white font-bold mb-3 text-sm">أبرز الجامعات</h4>
             <ul className="space-y-2 text-xs">
               <li><a href="#lincoln-special" className="hover:text-emerald-400 transition-colors">جامعة لينكولن (2400$/سنة)</a></li>
@@ -33,7 +33,7 @@ export function Footer() {
           </div>
 
           {/* Col 3: Services */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h4 className="text-white font-bold mb-3 text-sm">خدماتنا للطلاب</h4>
             <ul className="space-y-2 text-xs text-slate-400">
               <li><span>تأمين القبولات الجامعية</span></li>
@@ -44,13 +44,13 @@ export function Footer() {
           </div>
 
           {/* Col 4: Contact Info */}
-          <div className="space-y-2">
+          <div className="space-y-2 flex flex-col items-center md:items-start">
             <h4 className="text-white font-bold mb-3 text-sm">التواصل والموقع</h4>
-            <div className="flex items-start gap-2 text-xs text-slate-400">
+            <div className="flex items-center md:items-start justify-center md:justify-start gap-2 text-xs text-slate-400">
               <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
               <span>Block F, Unit B1 - 01, Dataran PHB, Saujana Resort, Shah Alam, Selangor</span>
             </div>
-            <div className="flex items-center gap-2 text-xs text-slate-400 pt-1">
+            <div className="flex items-center justify-center md:justify-start gap-2 text-xs text-slate-400 pt-1">
               <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>تواصل معنا عبر الواتساب أو الهاتف</span>
             </div>

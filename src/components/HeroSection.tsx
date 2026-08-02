@@ -29,19 +29,19 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
 
           <div className="flex flex-col lg:flex-row h-full min-h-[520px]">
             {/* Right content (Text for RTL) */}
-            <div className="flex-1 p-6 sm:p-10 lg:p-12 relative z-10 flex flex-col justify-center">
+            <div className="flex-1 p-6 sm:p-10 lg:p-12 relative z-10 flex flex-col justify-center text-center lg:text-right items-center lg:items-start">
               
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
                 ابدأ رحلتك الدراسية في ماليزيا
               </h1>
 
-              <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-xl leading-relaxed">
+              <p className="mt-4 text-slate-300 text-base sm:text-lg max-w-xl leading-relaxed mx-auto lg:mx-0">
                 هل تحلم بالدراسة في ماليزيا؟ نحن هنا لمساعدتك خطوة بخطوة حتى الوصول. 
                 التسجيل في الجامعات الماليزية المعتمدة مع عروض استثنائية!
               </p>
 
               {/* Special Lincoln University Highlight Banner */}
-              <div className="mt-5 p-4 rounded-2xl bg-slate-800/80 border border-emerald-500/30 text-xs sm:text-sm">
+              <div className="mt-5 p-4 rounded-2xl bg-slate-800/80 border border-emerald-500/30 text-xs sm:text-sm max-w-xl mx-auto lg:mx-0">
                 <span className="font-bold text-emerald-400">🔥 عرض حصري لجامعة لينكولن: </span>
                 <span className="text-slate-200">
                   احصل على بكالوريوس في تخصصات <strong className="text-white bg-emerald-500/20 px-1.5 py-0.5 rounded border border-emerald-500/30">الذكاء الاصطناعي (AI)</strong> و<strong className="text-white bg-slate-700 px-1.5 py-0.5 rounded border border-slate-600">الأمن السيبراني (Cyber Security)</strong> في <strong className="text-emerald-300">3 سنوات فقط</strong> وبسعر استثنائي يبلغ <strong className="text-amber-300">2,400$ / السنة</strong> تقريباً!
@@ -49,7 +49,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
               </div>
 
               {/* Key Highlights Grid */}
-              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-lg">
+              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-lg mx-auto lg:mx-0 text-right">
                 <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-800/90 border border-slate-700">
                   <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 shrink-0">
                     <Clock className="w-5 h-5" />
@@ -72,7 +72,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
               </div>
 
               {/* Action Buttons */}
-              <div className="mt-8 flex flex-wrap items-center gap-4">
+              <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4">
                 <a
                   href="https://wa.me/601128778837?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%8BB7%D8%A7%D9%84%D9%8A%D8%B2%D9%8A%D8%A7"
                   target="_blank"
@@ -93,7 +93,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
               </div>
 
               {/* Guarantees */}
-              <div className="mt-6 flex items-center gap-4 text-xs text-slate-400">
+              <div className="mt-6 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-slate-400">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
                   متابعة خطوة بخطوة

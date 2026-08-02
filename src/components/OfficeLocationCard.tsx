@@ -11,7 +11,7 @@ export function OfficeLocationCard() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
           {/* Left Text & Details */}
-          <div className="lg:col-span-7 space-y-6">
+          <div className="lg:col-span-7 space-y-6 text-center lg:text-right flex flex-col items-center lg:items-start">
             
             <div>
               <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold mb-3">
@@ -27,9 +27,9 @@ export function OfficeLocationCard() {
             </div>
 
             {/* Address & Contact Details */}
-            <div className="space-y-4">
+            <div className="space-y-4 w-full">
               
-              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-3.5">
+              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-right gap-3.5">
                 <div className="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
@@ -40,7 +40,7 @@ export function OfficeLocationCard() {
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-3.5">
+              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-right gap-3.5">
                 <div className="p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 shrink-0">
                   <Phone className="w-5 h-5" />
                 </div>
@@ -53,7 +53,7 @@ export function OfficeLocationCard() {
                 </div>
               </div>
 
-              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-3.5">
+              <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-right gap-3.5">
                 <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 shrink-0">
                   <Clock className="w-5 h-5" />
                 </div>
@@ -67,7 +67,7 @@ export function OfficeLocationCard() {
             </div>
 
             {/* Quick Map & Call Buttons */}
-            <div className="flex flex-wrap gap-4 pt-2">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
               <a
                 href={mapSearchUrl}
                 target="_blank"
