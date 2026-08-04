@@ -1,5 +1,5 @@
 {
-  "name": "بوابتك للدراسة في ماليزيا",
+  "name": "Your Study in Malaysia",
   "description": "مكتب استشارات وتأمين قبولات في الجامعات الماليزية المعتمدة وتخصصات الذكاء الاصطناعي والأمن السيبراني",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
