@@ -50,7 +50,7 @@ export const UNIVERSITIES_DATA: University[] = [
     tuitionPerYearUsd: 'تواصل للاستفسار',
     specialties: ['الذكاء الاصطناعي', 'إدارة الأعمال', 'العلوم الطبية', 'شراكات بريطانية وأسترالية'],
     descriptionAr: 'من أبرز الجامعات الخاصة في ماليزيا بمقرها الساحر في باندار سنواي، تصنيف عالمي قوي (QS) وشراكات أكاديمية مع جامعات بريطانية (Lancaster) وأسترالية.',
-    imageUrl: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000',
+    imageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&q=80&w=1000',
     popularPrograms: ['علوم الحاسوب والذكاء الاصطناعي', 'إدارة الأعمال الشاملة', 'العلوم البيولوجية']
   },
   {
@@ -65,7 +65,7 @@ export const UNIVERSITIES_DATA: University[] = [
     tuitionPerYearUsd: 'تواصل للاستفسار',
     specialties: ['الهندسة بجميع أفرعها', 'التقنية والبرمجيات', 'الذكاء الاصطناعي'],
     descriptionAr: 'جامعة حكومية عريقة ومن المراتب الأولى بين الجامعات التقنية والهندسية في ماليزيا وآسيا. فرعها في كوالالمبور يجمع بين جودة التعليم العالية والأسعار المناسبة للجامعات الحكومية.',
-    imageUrl: 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&q=80&w=1000',
+    imageUrl: 'https://images.unsplash.com/photo-1568667256549-094345857637?auto=format&fit=crop&q=80&w=1000',
     popularPrograms: ['هندسة البرمجيات', 'الهندسة الميكانيكية والكهربائية', 'الأمن السيبراني']
   },
   {
@@ -114,10 +114,9 @@ export const UNIVERSITIES_DATA: University[] = [
     type: 'private',
     location: 'نيلاي (قرب المطار والكليات)',
     tuitionPerYearUsd: 'تواصل للاستفسار',
-    arabDiscount: 'خصم خاص للطلاب العرب يصل إلى 30%',
-    specialties: ['تكنولوجيا المعلومات', 'إدارة الأعمال', 'التمرير والعلوم الصحية'],
-    descriptionAr: 'جامعة خاصة اقتصادية في نيلاي ذات حرم واسع وأخضر. مناسبة جداً للطلاب ذوي الميزانية المحدودة وتوفر خصومات خاصة وحصرية للطلاب العرب بنسبة 30%.',
-    imageUrl: 'https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1000',
+    specialties: ['تكنولوجيا المعلومات', 'إدارة الأعمال', 'التمريض والعلوم الصحية'],
+    descriptionAr: 'جامعة خاصة اقتصادية في نيلاي ذات حرم واسع وأخضر. مناسبة جداً للطلاب ذوي الميزانية المحدودة وتتميز ببيئة تعليمية متميزة للطلاب الدوليين.',
+    imageUrl: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=1000',
     popularPrograms: ['تكنولوجيا المعلومات والشبكات', 'إدارة الأعمال', 'هندسة الطيران والمعادن']
   },
   {
@@ -172,7 +171,7 @@ export const UNIVERSITIES_DATA: University[] = [
     tuitionPerYearUsd: 'تواصل للاستفسار',
     specialties: ['الهندسة المتقدمة', 'العلوم الصحية والطب', 'علوم الحاسوب'],
     descriptionAr: 'من أكبر وأرقى الجامعات الخاصة في ماليزيا بتصنيف عالمي مرتفع جداً (QS)، تتسم بتنوع تخصصات من هندسة وطب وحاسوب وتوفر شراكات صناعية واسعة.',
-    imageUrl: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=1000',
+    imageUrl: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=1000',
     popularPrograms: ['هندسة الحاسوب الذكية', 'علوم البيانات والتحليلات', 'الصيدلة والعلوم الصحية']
   }
 ];

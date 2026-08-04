@@ -5,7 +5,6 @@ import { HeroSection } from './components/HeroSection';
 import { LincolnFeaturedCard } from './components/LincolnFeaturedCard';
 import { ServicesSection } from './components/ServicesSection';
 import { UniversitiesGrid } from './components/UniversitiesGrid';
-import { TuitionCalculator } from './components/TuitionCalculator';
 import { OfficeLocationCard } from './components/OfficeLocationCard';
 import { ContactModal } from './components/ContactModal';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
@@ -46,9 +45,6 @@ export default function App() {
 
         {/* University Finder / Directory */}
         <UniversitiesGrid onSelectUniversity={handleSelectUniversity} />
-
-        {/* Tuition & Living Cost Calculator */}
-        <TuitionCalculator />
 
         {/* Agency Office Location Details */}
         <OfficeLocationCard />
