@@ -37,7 +37,7 @@ export default function App() {
         {/* Hero Section with 3D Spline Scene & Spotlight */}
         <HeroSection onOpenConsultation={() => setIsConsultationModalOpen(true)} />
 
-        {/* Featured Offer: Lincoln University 3-Year AI/Cybersecurity @ $2400/yr */}
+        {/* Featured Offer: Lincoln University 3-Year AI/Cybersecurity @ $2800/yr */}
         <LincolnFeaturedCard onOpenConsultation={() => setIsConsultationModalOpen(true)} />
 
         {/* Services Section */}

@@ -147,7 +147,7 @@ export function UniversitiesGrid({ onSelectUniversity }: UniversitiesGridProps) 
                   <div className="absolute top-3 right-3 flex flex-col gap-1.5 items-end">
                     {uni.featured && (
                       <span className="bg-amber-500 text-slate-950 text-[11px] font-black px-2.5 py-1 rounded-md shadow-md">
-                        ⭐ الأكثر طلباً ($2400/سنة)
+                        ⭐ الأكثر طلباً ($2800/سنة)
                       </span>
                     )}
                     {uni.arabDiscount && (

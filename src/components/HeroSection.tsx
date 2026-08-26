@@ -44,7 +44,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
               <div className="mt-5 p-4 rounded-2xl bg-slate-800/80 border border-emerald-500/30 text-xs sm:text-sm max-w-xl mx-auto lg:mx-0">
                 <span className="font-bold text-emerald-400">🔥 عرض حصري لجامعة لينكولن: </span>
                 <span className="text-slate-200">
-                  احصل على بكالوريوس في تخصصات <strong className="text-white bg-emerald-500/20 px-1.5 py-0.5 rounded border border-emerald-500/30">الذكاء الاصطناعي (AI)</strong> و<strong className="text-white bg-slate-700 px-1.5 py-0.5 rounded border border-slate-600">الأمن السيبراني (Cyber Security)</strong> في <strong className="text-emerald-300">3 سنوات فقط</strong> وبسعر استثنائي يبلغ <strong className="text-amber-300">2,400$ / السنة</strong> تقريباً!
+                  احصل على بكالوريوس في تخصصات <strong className="text-white bg-emerald-500/20 px-1.5 py-0.5 rounded border border-emerald-500/30">الذكاء الاصطناعي (AI)</strong> و<strong className="text-white bg-slate-700 px-1.5 py-0.5 rounded border border-slate-600">الأمن السيبراني (Cyber Security)</strong> في <strong className="text-emerald-300">3 سنوات فقط</strong> وبسعر استثنائي يبلغ <strong className="text-amber-300">2,800$ / السنة</strong> تقريباً!
                 </span>
               </div>
 
@@ -66,7 +66,7 @@ export function HeroSection({ onOpenConsultation }: HeroSectionProps) {
                   </div>
                   <div>
                     <div className="text-[11px] text-amber-300 font-bold">رسوم بكالوريوس جامعة لينكولن</div>
-                    <div className="text-xs font-extrabold text-amber-300">2,400$ / السنة تقريباً</div>
+                    <div className="text-xs font-extrabold text-amber-300">2,800$ / السنة تقريباً</div>
                   </div>
                 </div>
               </div>

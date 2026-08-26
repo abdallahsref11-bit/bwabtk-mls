@@ -19,7 +19,7 @@ export function Navbar({ onOpenConsultation }: NavbarProps) {
 
   const navLinks = [
     { name: 'الرئيسية', href: '#hero' },
-    { name: 'عرض جامعة لينكولن (2400$)', href: '#lincoln-special' },
+    { name: 'عرض جامعة لينكولن (2800$)', href: '#lincoln-special' },
     { name: 'خدماتنا', href: '#services' },
     { name: 'الجامعات الماليزية', href: '#universities' },
     { name: 'موقع المكتب', href: '#office-info' },

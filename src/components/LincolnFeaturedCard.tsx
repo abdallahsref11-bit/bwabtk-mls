@@ -43,11 +43,11 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
                   <span>Lincoln University College - Malaysia</span>
                 </div>
                 <h3 className="text-2xl sm:text-4xl font-black text-white leading-tight">
-                  بكالوريوس تقني وشامل بثلاث سنوات بسعر <span className="text-amber-400 font-extrabold">2,400$</span> بالسنة تقريباً!
+                  بكالوريوس تقني وشامل بثلاث سنوات بسعر <span className="text-amber-400 font-extrabold">2,800$</span> بالسنة تقريباً!
                 </h3>
               </div>
 
-              {/* 2 Critical Focused Highlights (3 Years & $2400) */}
+              {/* 2 Critical Focused Highlights (3 Years & $2800) */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                 <div className="p-5 rounded-2xl bg-slate-950/80 border border-emerald-500/30 shadow-md">
                   <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-3 text-center sm:text-right">
@@ -71,12 +71,9 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
                     </div>
                     <div>
                       <div className="text-xs text-slate-400 font-medium">الرسوم الدراسية</div>
-                      <div className="text-xl font-black text-amber-400">2,400$ / السنة</div>
+                      <div className="text-xl font-black text-amber-400">2,800$ / السنة</div>
                     </div>
                   </div>
-                  <p className="mt-2 text-xs text-slate-300">
-                    وفر أكثر من 50% مقارنة بالجامعات الأخرى.
-                  </p>
                 </div>
               </div>
 
@@ -125,7 +122,7 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
               {/* Action Trigger Buttons */}
               <div className="pt-2 flex flex-wrap justify-center lg:justify-start gap-4">
                 <a
-                  href="https://wa.me/601128778837?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D9%84%D9%8A%D9%86%D9%83%D9%88%D9%84%D9%86%20(%D8%B9%D8%B1%D8%B6%202400%20%D8%AF%D9%88%D9%84%D8%A7%D8%B1)"
+                  href="https://wa.me/601128778837?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D9%81%D9%8A%20%D8%AC%D8%A7%D9%85%D8%B9%D8%A9%20%D9%84%D9%8A%D9%86%D9%83%D9%88%D9%84%D9%86%20(%D8%B9%D8%B1%D8%B6%202800%20%D8%AF%D9%88%D9%84%D8%A7%D8%B1)"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm shadow-md transition-all hover:scale-102 cursor-pointer"
@@ -162,7 +159,7 @@ export function LincolnFeaturedCard({ onOpenConsultation }: LincolnFeaturedCardP
                       <div className="text-slate-300 text-xs">كوالالمبور، ماليزيا</div>
                     </div>
                     <div className="px-3 py-1 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-300 text-xs font-bold">
-                      2,400$/سنة
+                      2,800$/سنة
                     </div>
                   </div>
                 </div>

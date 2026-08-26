@@ -24,7 +24,7 @@ export function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <h4 className="text-white font-bold mb-3 text-sm">أبرز الجامعات</h4>
             <ul className="space-y-2 text-xs">
-              <li><a href="#lincoln-special" className="hover:text-emerald-400 transition-colors">جامعة لينكولن (2400$/سنة)</a></li>
+              <li><a href="#lincoln-special" className="hover:text-emerald-400 transition-colors">جامعة لينكولن (2800$/سنة)</a></li>
               <li><a href="#universities" className="hover:text-emerald-400 transition-colors">جامعة صنواي (Sunway)</a></li>
               <li><a href="#universities" className="hover:text-emerald-400 transition-colors">جامعة UTM الحكومية</a></li>
               <li><a href="#universities" className="hover:text-emerald-400 transition-colors">جامعة نيلاي (خصم للعرب)</a></li>
